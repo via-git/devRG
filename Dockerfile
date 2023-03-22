@@ -27,7 +27,7 @@ RUN apt-get install --assume-yes firefox
 # SPECIFY VARIABLES FOR SETTING UP CHROME REMOTE DESKTOP
 ARG USER=fajar
 ENV PIN=123456
-ENV CODE=4/DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AWtgzh5mYtEJV3pZPrwX2UfBdhjRwqk1MLC_VGbyqWJLdH8WX5Wc2zmiEYjJQ3p1JR7MfA" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
+ENV CODE=4/0AWtgzh5mYtEJV3pZPrwX2UfBdhjRwqk1MLC_VGbyqWJLdH8WX5Wc2zmiEYjJQ3p1JR7MfA
 ENV HOSTNAME=myGH
 # ---------------------------------------------------------- 
 # ADD USER TO THE SPECIFIED GROUPS
